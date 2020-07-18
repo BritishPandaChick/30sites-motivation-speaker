@@ -1,0 +1,17 @@
+/* Sass Variables */ 
+$merriweater: 'Merriweather', serif;
+$shadows: 'Shadows Into Light', cursive;
+$light-purple: #AA3E98;
+$purple: #9368B7;
+$hover-color: #9297C4;
+
+/* Base Styles */
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: $purple;
+}
