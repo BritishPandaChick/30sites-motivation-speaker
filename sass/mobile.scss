@@ -1,5 +1,5 @@
 /* Sass Variables */ 
-$merriweater: 'Merriweather', serif;
+$merriweather: 'Merriweather', serif;
 $shadows: 'Shadows Into Light', cursive;
 $light-purple: #AA3E98;
 $purple: #9368B7;
@@ -14,4 +14,178 @@ body {
 /* Header */
 header {
     background-color: $purple;
+    
+    .navbar-brand {
+        font-family: $shadows;
+        font-size: 35px;
+    }
+
+    .dropdown-menu {
+        background-color: $purple;
+    }
+
+    li, .dropdown-item {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: $hover-color;
+    }
+
+    i {
+        color: #fff;
+    }
+}
+
+/* Quote */ 
+#quote {
+    background-color: $light-purple;
+    padding: 80px 0;
+
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: $merriweather;
+        line-height: 50px;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: $shadows;
+        color: #fff;
+        padding: 15px 0;
+    }
+}
+
+/* email */ 
+#email {
+    border: 2px solid $purple;
+    padding: 30px 0;
+
+    h2 {
+        font-size: 30px;
+        font-family: $shadows;
+        color: $light-purple;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: #333;
+        padding: 15px 0;
+    }
+
+    .btn {
+        background-color: $light-purple;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+/* About */
+#about {
+    padding: 20px 0;
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: #333;
+        font-family: $merriweather;
+    }
+}
+
+/* Programs */
+#programs {
+    padding: 40px 0;
+
+    h2 {
+        font-size: 30px;
+        font-family: $shadows;
+        color: $purple;
+        padding-bottom: 15px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        color: #333;
+        font-family: $merriweather;
+        padding: 15px 0;
+    }
+
+    .group {
+        background-color: $light-purple;
+        padding: 20px;
+        font-family: $merriweather;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+}
+
+/* Meg */ 
+#meg {
+    padding: 20px 0;
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: $shadows;
+        color: $purple;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        font-family: $merriweather;
+    }
+
+    button {
+        background-color: $light-purple;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+/* Upcoming */
+#upcoming {
+    padding: 40px 0;
+
+    h2 {
+        font-size: 30px;
+        font-family: $shadows;
+        color: $purple;
+        padding-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: $merriweather;
+        color: #333;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        font-family: $merriweather;
+    }
+
+    button {
+        background-color: $light-purple;
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+/* Bottom Nav */
+#bottom-nav {
+    
 }
