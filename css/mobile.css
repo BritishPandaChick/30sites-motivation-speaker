@@ -157,5 +157,40 @@ header i {
 }
 
 /* Bottom Nav */
+#bottom-nav {
+  background-color: #AA3E98;
+  padding: 20px 0;
+}
+#bottom-nav h3 {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+}
+#bottom-nav p {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Merriweather", serif;
+  line-height: 32px;
+}
+#bottom-nav i {
+  color: #fff;
+  padding: 0 15px;
+}
+#bottom-nav li {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  list-style-type: none;
+  padding: 15px 0;
+}
+
+footer {
+  background-color: #9368B7;
+  padding: 15px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Shadows Into Light", cursive;
+}
 
 /*# sourceMappingURL=mobile.css.map */

@@ -187,5 +187,42 @@ header {
 
 /* Bottom Nav */
 #bottom-nav {
-    
+    background-color: $light-purple;
+    padding: 20px 0;
+
+    h3 {
+        font-size: 25px;
+        color: #fff;
+        font-family: $shadows;
+    }
+
+    p {
+        font-size: 20px;
+        color: #fff;
+        font-family: $merriweather;
+        line-height: 32px;
+    }
+
+    i {
+        color: #fff;
+        padding: 0 15px;
+    }
+
+    li {
+        color: #fff;
+        font-family: $merriweather;
+        list-style-type: none;
+        padding: 15px 0;
+    }
+}
+
+footer {
+    background-color: $purple;
+    padding: 15px 0;
+
+    p {
+        color: #fff;
+        font-size: 18px;
+        font-family: $shadows;
+    }
 }

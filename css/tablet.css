@@ -1,0 +1,108 @@
+/* Sass Variables */
+/* Base Styles */
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #9368B7;
+}
+header .navbar-brand {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 35px;
+}
+header .dropdown-menu {
+  background-color: #9368B7;
+}
+header li, header .dropdown-item {
+  font-size: 20px;
+  color: #fff;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  color: #9297C4;
+}
+header i {
+  color: #fff;
+}
+
+/* Quote */
+#quote {
+  background-color: #AA3E98;
+  padding: 80px 0;
+}
+#quote h2 {
+  font-size: 35px;
+  color: #fff;
+  font-family: "Merriweather", serif;
+  line-height: 50px;
+}
+#quote h3 {
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+  color: #fff;
+  padding: 15px 0;
+}
+
+/* email */
+#email {
+  border: 2px solid #9368B7;
+  padding: 30px 0;
+}
+#email h2 {
+  font-size: 35px;
+  font-family: "Shadows Into Light", cursive;
+  color: #AA3E98;
+}
+#email p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+  padding: 15px 0;
+}
+#email .btn {
+  background-color: #AA3E98;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* About */
+#about {
+  padding: 20px 0;
+}
+#about p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+  font-family: "Merriweather", serif;
+}
+
+/* Programs */
+#programs {
+  padding: 40px 0;
+}
+#programs h2 {
+  font-size: 35px;
+  font-family: "Shadows Into Light", cursive;
+  color: #9368B7;
+  padding-bottom: 15px;
+}
+#programs p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+  font-family: "Merriweather", serif;
+  padding: 15px 0;
+}
+#programs .group {
+  background-color: #AA3E98;
+  padding: 20px;
+  font-family: "Merriweather", serif;
+  color: #fff;
+}
+
+/*# sourceMappingURL=tablet.css.map */
