@@ -72,7 +72,7 @@ header i {
 
 /* About */
 #about {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #about p {
   font-size: 20px;
@@ -83,7 +83,7 @@ header i {
 
 /* Programs */
 #programs {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 #programs h2 {
   font-size: 35px;
@@ -96,13 +96,101 @@ header i {
   line-height: 32px;
   color: #333;
   font-family: "Merriweather", serif;
-  padding: 15px 0;
 }
 #programs .group {
   background-color: #AA3E98;
-  padding: 20px;
   font-family: "Merriweather", serif;
   color: #fff;
+  padding: 20px 0px;
+  border: 1px solid #9368B7;
+}
+
+/* Meg */
+#meg {
+  padding: 40px 0;
+}
+#meg img {
+  margin-bottom: 20px;
+}
+#meg h2 {
+  font-size: 35px;
+  font-family: "Shadows Into Light", cursive;
+  color: #9368B7;
+}
+#meg p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Merriweather", serif;
+}
+#meg button {
+  background-color: #AA3E98;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Upcoming */
+#upcoming {
+  padding: 40px 0;
+}
+#upcoming h2 {
+  font-size: 35px;
+  font-family: "Shadows Into Light", cursive;
+  color: #9368B7;
+  padding-bottom: 15px;
+}
+#upcoming h3 {
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+  color: #333;
+}
+#upcoming p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Merriweather", serif;
+}
+#upcoming button {
+  background-color: #AA3E98;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* Bottom Nav */
+#bottom-nav {
+  background-color: #AA3E98;
+  padding: 20px 0;
+}
+#bottom-nav h3 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+}
+#bottom-nav p {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Merriweather", serif;
+  line-height: 32px;
+}
+#bottom-nav i {
+  color: #fff;
+  padding: 0 15px;
+}
+#bottom-nav li {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #9368B7;
+  padding: 15px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Shadows Into Light", cursive;
 }
 
 /*# sourceMappingURL=tablet.css.map */

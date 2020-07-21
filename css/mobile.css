@@ -50,19 +50,19 @@ header i {
 
 /* email */
 #email {
-  border: 2px solid #9368B7;
   padding: 30px 0;
+  background-color: #9368B7;
 }
 #email h2 {
   font-size: 30px;
   font-family: "Shadows Into Light", cursive;
-  color: #AA3E98;
+  color: #fff;
 }
 #email p {
   font-size: 20px;
   line-height: 32px;
-  color: #333;
-  padding: 15px 0;
+  color: #fff;
+  padding: 15px;
 }
 #email .btn {
   background-color: #AA3E98;
@@ -104,6 +104,7 @@ header i {
   font-family: "Merriweather", serif;
   color: #fff;
   margin-bottom: 15px;
+  border: 1px solid #9368B7;
 }
 
 /* Meg */
@@ -183,6 +184,7 @@ header i {
   padding: 15px 0;
 }
 
+/* Footer */
 footer {
   background-color: #9368B7;
   padding: 15px 0;
