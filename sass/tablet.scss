@@ -64,19 +64,19 @@ header {
 
 /* email */ 
 #email {
-    border: 2px solid $purple;
+    background-color: $purple;
     padding: 30px 0;
 
     h2 {
         font-size: 35px;
         font-family: $shadows;
-        color: $light-purple;
+        color: #fff;
     }
 
     p {
         font-size: 20px;
         line-height: 32px;
-        color: #333;
+        color: #fff;
         padding: 15px 0;
     }
 

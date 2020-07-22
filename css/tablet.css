@@ -50,18 +50,18 @@ header i {
 
 /* email */
 #email {
-  border: 2px solid #9368B7;
+  background-color: #9368B7;
   padding: 30px 0;
 }
 #email h2 {
   font-size: 35px;
   font-family: "Shadows Into Light", cursive;
-  color: #AA3E98;
+  color: #fff;
 }
 #email p {
   font-size: 20px;
   line-height: 32px;
-  color: #333;
+  color: #fff;
   padding: 15px 0;
 }
 #email .btn {

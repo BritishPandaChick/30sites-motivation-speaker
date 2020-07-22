@@ -72,7 +72,7 @@ header i {
 
 /* About */
 #about {
-  padding: 20px 0;
+  padding: 50px 0;
 }
 #about p {
   font-size: 20px;
@@ -89,14 +89,13 @@ header i {
   font-size: 30px;
   font-family: "Shadows Into Light", cursive;
   color: #9368B7;
-  padding-bottom: 15px;
 }
 #programs p {
   font-size: 20px;
   line-height: 32px;
   color: #333;
   font-family: "Merriweather", serif;
-  padding: 15px 0;
+  padding: 15px;
 }
 #programs .group {
   background-color: #AA3E98;
@@ -104,12 +103,11 @@ header i {
   font-family: "Merriweather", serif;
   color: #fff;
   margin-bottom: 15px;
-  border: 1px solid #9368B7;
 }
 
 /* Meg */
 #meg {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #meg img {
   margin-bottom: 20px;
@@ -123,6 +121,7 @@ header i {
   font-size: 20px;
   line-height: 32px;
   font-family: "Merriweather", serif;
+  padding: 15px;
 }
 #meg button {
   background-color: #AA3E98;
@@ -144,11 +143,14 @@ header i {
   font-size: 25px;
   font-family: "Merriweather", serif;
   color: #333;
+  padding: 0 15px;
 }
 #upcoming p {
   font-size: 20px;
   line-height: 32px;
+  color: #333;
   font-family: "Merriweather", serif;
+  padding: 15px;
 }
 #upcoming button {
   background-color: #AA3E98;
@@ -181,7 +183,7 @@ header i {
   color: #fff;
   font-family: "Merriweather", serif;
   list-style-type: none;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 /* Footer */

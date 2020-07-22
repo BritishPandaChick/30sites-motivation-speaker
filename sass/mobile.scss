@@ -89,7 +89,7 @@ header {
 
 /* About */
 #about {
-    padding: 20px 0;
+    padding: 50px 0;
 
     p {
         font-size: 20px;
@@ -107,7 +107,6 @@ header {
         font-size: 30px;
         font-family: $shadows;
         color: $purple;
-        padding-bottom: 15px;
     }
 
     p {
@@ -115,7 +114,7 @@ header {
         line-height: 32px;
         color: #333;
         font-family: $merriweather;
-        padding: 15px 0;
+        padding: 15px;
     }
 
     .group {
@@ -124,13 +123,12 @@ header {
         font-family: $merriweather;
         color: #fff;
         margin-bottom: 15px;
-        border: 1px solid $purple;
     }
 }
 
 /* Meg */ 
 #meg {
-    padding: 20px 0;
+    padding: 40px 0;
 
     img {
         margin-bottom: 20px;
@@ -146,6 +144,7 @@ header {
         font-size: 20px;
         line-height: 32px;
         font-family: $merriweather;
+        padding: 15px;
     }
 
     button {
@@ -170,12 +169,15 @@ header {
         font-size: 25px;
         font-family: $merriweather;
         color: #333;
+        padding: 0 15px;
     }
 
     p {
         font-size: 20px;
         line-height: 32px;
+        color: #333;
         font-family: $merriweather;
+        padding: 15px;
     }
 
     button {
@@ -213,7 +215,7 @@ header {
         color: #fff;
         font-family: $merriweather;
         list-style-type: none;
-        padding: 15px 0;
+        padding: 10px 0;
     }
 }
 
