@@ -62,7 +62,7 @@ header i {
   font-size: 20px;
   line-height: 32px;
   color: #fff;
-  padding: 15px 0;
+  padding: 15px;
 }
 #email .btn {
   background-color: #AA3E98;
@@ -72,7 +72,7 @@ header i {
 
 /* About */
 #about {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 #about p {
   font-size: 20px;
@@ -83,26 +83,33 @@ header i {
 
 /* Programs */
 #programs {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #programs h2 {
   font-size: 35px;
   font-family: "Shadows Into Light", cursive;
   color: #9368B7;
-  padding-bottom: 15px;
 }
 #programs p {
   font-size: 20px;
   line-height: 32px;
   color: #333;
   font-family: "Merriweather", serif;
+  padding: 15px;
+}
+#programs .groups {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 100px 50px;
+  grid-template-rows: 25% 40px auto;
+  border: 2px solid red;
 }
 #programs .group {
+  margin: 0 25px;
   background-color: #AA3E98;
+  padding: 20px;
   font-family: "Merriweather", serif;
   color: #fff;
-  padding: 20px 0px;
-  border: 1px solid #9368B7;
 }
 
 /* Meg */
@@ -121,6 +128,7 @@ header i {
   font-size: 20px;
   line-height: 32px;
   font-family: "Merriweather", serif;
+  padding: 15px;
 }
 #meg button {
   background-color: #AA3E98;
@@ -142,11 +150,13 @@ header i {
   font-size: 30px;
   font-family: "Merriweather", serif;
   color: #333;
+  padding: 0 15px;
 }
 #upcoming p {
   font-size: 20px;
   line-height: 32px;
   font-family: "Merriweather", serif;
+  padding: 15px;
 }
 #upcoming button {
   background-color: #AA3E98;

@@ -77,7 +77,7 @@ header {
         font-size: 20px;
         line-height: 32px;
         color: #fff;
-        padding: 15px 0;
+        padding: 15px;
     }
 
     .btn {
@@ -89,7 +89,7 @@ header {
 
 /* About */
 #about {
-    padding: 40px 0;
+    padding: 50px 0;
 
     p {
         font-size: 20px;
@@ -101,13 +101,12 @@ header {
 
 /* Programs */
 #programs {
-    padding: 20px 0;
+    padding: 40px 0;
 
     h2 {
         font-size: 35px;
         font-family: $shadows;
         color: $purple;
-        padding-bottom: 15px;
     }
 
     p {
@@ -115,14 +114,23 @@ header {
         line-height: 32px;
         color: #333;
         font-family: $merriweather;
+        padding: 15px;
+    }
+
+    .groups {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 100px 50px;
+        grid-template-rows: 25% 40px auto;
+        border: 2px solid red;
     }
 
     .group {
+        margin: 0 25px;
         background-color: $light-purple;
+        padding: 20px;
         font-family: $merriweather;
         color: #fff;
-        padding: 20px 0px;
-        border: 1px solid $purple;
     }
 }
 
@@ -144,6 +152,7 @@ header {
         font-size: 20px;
         line-height: 32px;
         font-family: $merriweather;
+        padding: 15px;
     }
 
     button {
@@ -168,12 +177,14 @@ header {
         font-size: 30px;
         font-family: $merriweather;
         color: #333;
+        padding: 0 15px;
     }
 
     p {
         font-size: 20px;
         line-height: 32px;
         font-family: $merriweather;
+        padding: 15px;
     }
 
     button {
