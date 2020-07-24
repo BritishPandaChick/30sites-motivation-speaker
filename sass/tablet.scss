@@ -117,14 +117,6 @@ header {
         padding: 15px;
     }
 
-    .groups {
-        max-width: 100%;
-        display: grid;
-        grid-template-columns: 100px 50px;
-        grid-template-rows: 25% 40px auto;
-        border: 2px solid red;
-    }
-
     .group {
         margin: 0 25px;
         background-color: $light-purple;

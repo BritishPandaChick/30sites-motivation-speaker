@@ -16,6 +16,9 @@ header .navbar-brand {
 header .dropdown-menu {
   background-color: #9368B7;
 }
+header .nav-item {
+  padding-left: 10px;
+}
 header li, header .dropdown-item {
   font-size: 20px;
   color: #fff;
@@ -50,19 +53,19 @@ header i {
 
 /* email */
 #email {
-  border: 2px solid #9368B7;
+  background-color: #9368B7;
   padding: 30px 0;
 }
 #email h2 {
   font-size: 40px;
   font-family: "Shadows Into Light", cursive;
-  color: #AA3E98;
+  color: #fff;
 }
 #email p {
   font-size: 20px;
   line-height: 32px;
-  color: #333;
-  padding: 15px 0;
+  color: #fff;
+  padding: 15px;
 }
 #email .btn {
   background-color: #AA3E98;
@@ -72,7 +75,7 @@ header i {
 
 /* About */
 #about {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 #about p {
   font-size: 20px;
@@ -83,7 +86,7 @@ header i {
 
 /* Programs */
 #programs {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 #programs h2 {
   font-size: 40px;
@@ -96,13 +99,14 @@ header i {
   line-height: 32px;
   color: #333;
   font-family: "Merriweather", serif;
+  padding: 15px;
 }
 #programs .group {
   background-color: #AA3E98;
   font-family: "Merriweather", serif;
   color: #fff;
-  padding: 20px 0px;
-  border: 1px solid #9368B7;
+  padding: 20px;
+  margin: 0 25px;
 }
 
 /* Meg */

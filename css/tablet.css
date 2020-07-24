@@ -97,13 +97,6 @@ header i {
   font-family: "Merriweather", serif;
   padding: 15px;
 }
-#programs .groups {
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 100px 50px;
-  grid-template-rows: 25% 40px auto;
-  border: 2px solid red;
-}
 #programs .group {
   margin: 0 25px;
   background-color: #AA3E98;

@@ -24,6 +24,10 @@ header {
         background-color: $purple;
     }
 
+    .nav-item {
+      padding-left: 10px;
+    }
+
     li, .dropdown-item {
         font-size: 20px;
         color: #fff;
@@ -64,20 +68,20 @@ header {
 
 /* email */ 
 #email {
-    border: 2px solid $purple;
+    background-color: $purple;
     padding: 30px 0;
 
     h2 {
         font-size: 40px;
         font-family: $shadows;
-        color: $light-purple;
+        color: #fff;
     }
 
     p {
         font-size: 20px;
         line-height: 32px;
-        color: #333;
-        padding: 15px 0;
+        color: #fff;
+        padding: 15px;
     }
 
     .btn {
@@ -89,7 +93,7 @@ header {
 
 /* About */
 #about {
-    padding: 40px 0;
+    padding: 50px 0;
 
     p {
         font-size: 20px;
@@ -101,7 +105,7 @@ header {
 
 /* Programs */
 #programs {
-    padding: 20px 0;
+    padding: 40px 0;
 
     h2 {
         font-size: 40px;
@@ -115,14 +119,15 @@ header {
         line-height: 32px;
         color: #333;
         font-family: $merriweather;
+        padding: 15px;
     }
 
     .group {
         background-color: $light-purple;
         font-family: $merriweather;
         color: #fff;
-        padding: 20px 0px;
-        border: 1px solid $purple;
+        padding: 20px;
+        margin: 0 25px;
     }
 }
 
