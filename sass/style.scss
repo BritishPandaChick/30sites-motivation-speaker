@@ -127,7 +127,7 @@ header {
         font-family: $merriweather;
         color: #fff;
         padding: 20px;
-        margin: 0 25px;
+        margin: 0 40px;
     }
 }
 
@@ -149,6 +149,7 @@ header {
         font-size: 20px;
         line-height: 32px;
         font-family: $merriweather;
+        padding: 15px;
     }
 
     button {
@@ -173,12 +174,14 @@ header {
         font-size: 35px;
         font-family: $merriweather;
         color: #333;
+        padding: 0 15px;
     }
 
     p {
         font-size: 20px;
         line-height: 32px;
         font-family: $merriweather;
+        padding: 15px;
     }
 
     button {
@@ -205,6 +208,10 @@ header {
         color: #fff;
         font-family: $merriweather;
         line-height: 32px;
+    }
+
+    ul {
+        padding: 30px 0;
     }
 
     i {
